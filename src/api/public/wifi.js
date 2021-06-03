@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const mysql = require('../../models/mysql');
 
+// Método que trae los registros guardados
 app.get('/getItems', async (req, res) => {
     try {
 
@@ -13,6 +14,7 @@ app.get('/getItems', async (req, res) => {
     }
 });
 
+// Método que agrega un nuevo registro
 app.post('/addItem', async (req, res) => {
     try {
 
