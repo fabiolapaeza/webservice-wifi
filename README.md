@@ -2,11 +2,11 @@
 Aplicación desarrollada en Node.js
  
 ## Tecnologías
-- Node.js
+- Node.js 14.17.0
 - JavaScript
 - JSON
-- Express
-- MySql
+- Express 4.17.1
+- MySql 5.0
 
 Ejecutar este comando 
 
